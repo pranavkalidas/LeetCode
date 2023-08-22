@@ -18,7 +18,7 @@ public class DuplicateInString {
             //System.out.println(stack.toString());
         }
         StringBuilder sb = new StringBuilder();
-        stack.forEach(sb::append);;
-        System.out.println(sb.toString());
+        stack.forEach(sb::append);
+        System.out.println(sb);
     }
 }
